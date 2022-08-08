@@ -6,11 +6,11 @@ Example: (Input1, Input2 -->Output)
 "34", "5" --> "39"
 "", "" --> "0"
 "2", "" --> "2"
-"-5", "3" --> "-2" 
+"-5", "3" --> "-2" */
 
 //SOLUTION
 
 function sumStr(a,b) {
     let strToNum = Number(a)+Number(b) // transformed my arguments to integers and summed it up
     return strToNum.toString() //returned the solution and transformed to a string
-}*/
+}
